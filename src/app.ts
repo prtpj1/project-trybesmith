@@ -1,10 +1,10 @@
 import express from 'express';
-import routerProcuts from './routers/products.router';
+import routers from './routers';
 
 const app = express();
 
 app.use(express.json());
 
-app.use(routerProcuts);
+app.use(routers);
 
 export default app;
