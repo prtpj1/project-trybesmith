@@ -1,5 +1,5 @@
 import { ResultSetHeader } from 'mysql2';
-import connection from '../../helpers/connection';
+import connection from '../connection';
 import { IUsers } from '../../interfaces/IUsers';
 
 const addUserModel = async (user: IUsers) => {
