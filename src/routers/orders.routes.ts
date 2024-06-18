@@ -1,8 +1,8 @@
 import { Router } from 'express';
 import controller from '../controllers/ordersControllers/index';
 
-const orderssRouter = Router();
+const ordersRouter = Router();
 
-orderssRouter.get('/', controller.getAllOrdersController);
+ordersRouter.get('/', controller.getAllOrdersController);
 
-export default orderssRouter;
+export default ordersRouter;
