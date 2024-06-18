@@ -85,6 +85,19 @@ _*Feedbacks são bem vindos.*_
 `npm start`
 
 
+#### :whale: Rodando com Docker
+- Confirme que o Docker está rodando no seu computador
+- Clone o repositório: <br>
+`git clone git@github.com:prtpj1/project-trybesmith.git`
+- Acesse a pasta do projeto: <br>
+`cd project-trybesmith`
+- Suba o container para o Docker: <br>
+`docker-compose up -d`
+
+- Acesse o link abaixo para acessar as rotas e testa-las: <br>
+http://localhost:3000/api-docs/
+<hr/>
+
 </br>
 </br>
 
