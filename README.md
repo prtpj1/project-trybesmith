@@ -19,7 +19,88 @@
 </p>
 <hr/>
 
+## Project Description
+I developed this BackEnd project during my learning period at Trybe, where I created the CRUD _*(Create, Read, Update, and Delete)*_ for a medieval store, in the form of an API using TypeScript.<br>
 
+## In this project, I learned and put into practice:
+- Creating the application layers (Models, Service, and Controllers)
+- Developing endpoints that were connected to the database following REST principles
+
+<hr/>
+
+## According to the project requirements designated by Trybe, I learned how to:
+
+- ✅ Create an endpoint for product registration
+- ✅ Create an endpoint for listing products
+- ✅ Create an endpoint for user registration
+- ✅ Create an endpoint to list all orders
+
+Bonus requirements:
+- ❌ Create an endpoint for user login
+- ❌ Create product validations
+- ❌ Create user validations
+- ❌ Create an endpoint for order registration
+
+_*Note: In some projects, some requirements were not completed due to the accelerated dynamics of the course, not because I didn't know how to do them. At the time, I just needed a little more time.*_
+
+_*I still haven't decided if it's better to leave it this way to demonstrate my progress during my learning or if it would be better to complete the requirements that were missing in the course projects.*_
+
+_*Feedback is welcome.*_
+
+<hr/>
+
+## Stacks
+### BackEnd:
+- Docker
+- Express
+- MySQL
+- Node.js
+- TypeScript
+
+<a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/Docker2.png?raw=true" width="50" height="50" alt="Docker Icon" /></a><a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/express2.png?raw=true" width="50" height="50" alt="Express Icon" /></a><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/mySQL2.png?raw=true" width="50" height="50" alt="MySQL Icon" /></a><a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/NodeJS2.png?raw=true" width="50" height="50" alt="NodeJS Icon" /></a><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/Typescript2.png?raw=true" width="50" height="50" alt="TypeScript Icon" /></a>
+<hr/>
+
+## How to run the application?
+### Local:
+- MySQL needs to be running on your machine <br>
+⚠️ If you are on Windows, stop MySQL on Windows, as you will use MySQL from your Linux distro through WSL2
+- Clone the repository: <br>
+`git clone git@github.com:prtpj1/project-trybesmith.git`
+- Access the project folder: <br>
+`cd project-trybesmith`
+- Install the dependencies: <br>
+`npm install`
+- Create the `.env` file at the root of the project with the following data: <br>
+```
+    MYSQL_HOST=localhost
+    MYSQL_USER=root
+    MYSQL_PASSWORD=<your MySQL password>
+```
+- In the terminal, start the application: <br>
+`npm start`
+<hr/>
+
+#### :whale: With Docker
+- Ensure Docker is running on your computer
+- Clone the repository: <br>
+`git clone git@github.com:prtpj1/project-trybesmith.git`
+- Access the project folder: <br>
+`cd project-trybesmith`
+- Bring up the container for Docker: <br>
+`docker-compose up -d`
+
+With the project running, you can test the routes by clicking on the [Swagger](http://localhost:3000/api-docs/) link
+<img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/Swagger/trybesmithapi2.png?raw=true" alt="Swagger Screen" />
+<img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/Swagger/trybesmithapi1.png?raw=true" alt="Swagger Screen" />
+
+<hr/>
+
+<br>
+<br>
+
+_*Note: If you have any difficulties with the instructions and would like to give feedback, send me a message*_
+
+<hr/>
 
 ## Descrição do Projeto
 Fiz este projeto BackEnd durante meu período de aprendizagem na Trybe onde desenvolvi o CRUD  _*(Create, Read, Update e Delete - Criação, Leitura, Atualização e Exclusão)*_ para uma loja de itens medievais, no formato de uma API utilizando TypeScript<br>
@@ -83,7 +164,7 @@ _*Feedbacks são bem vindos.*_
 ```
 - No terminal inicie a aplicação: <br>
 `npm start`
-
+<hr/>
 
 #### :whale: Rodando com Docker
 - Confirme que o Docker está rodando no seu computador
@@ -94,8 +175,10 @@ _*Feedbacks são bem vindos.*_
 - Suba o container para o Docker: <br>
 `docker-compose up -d`
 
-- Acesse o link abaixo para acessar as rotas e testa-las: <br>
-http://localhost:3000/api-docs/
+Com o projeto rodando você poderá testar as rotas clicando no link do [Swagger](http://localhost:3000/api-docs/)
+<img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/Swagger/trybesmithapi2.png?raw=true" alt="Tela do Swagger" />
+<img src="https://github.com/prtpj1/prtpj1/blob/main/Github%20Imgs/Swagger/trybesmithapi1.png?raw=true" alt="Tela do Swagger" />
+
 <hr/>
 
 </br>
